@@ -84,3 +84,6 @@ GTAGS
 *.orig
 *~
 \#*#
+
+# some specific *.i files which will be used when compiling the kernel
+!arch/arm/mach-msm/*.i
